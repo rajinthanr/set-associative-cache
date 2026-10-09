@@ -1,0 +1,39 @@
+# Quartus build output
+db/
+incremental_db/
+output_files/
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.pof
+*.sof
+*.map
+*.orig
+*.bak*
+.qsys_edit/
+
+# Questa / ModelSim and Icarus simulation output
+simulation/questa/verilog_libs/
+simulation/questa/rtl_work/
+simulation/questa/gate_work/
+simulation/questa/msim_transcript
+transcript
+*.wlf
+*.vcd
+*.vvp
+
+# Quartus EDA netlists, regenerated on every compile
+simulation/questa/*.vo
+simulation/questa/*.sft
+simulation/questa/*.xrf
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Compiled Icarus simulation
+verilog/cache_sim
